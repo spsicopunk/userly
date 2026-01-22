@@ -5,6 +5,10 @@
   <p>Desarrollada con Angular 21, TypeScript y Tailwind CSS</p>
 </div>
 
+<div align="center">
+  <img src="screenshot.png" alt="Vista previa de Userly - Dashboard principal" width="800"/>
+</div>
+
 ---
 
 ## 📋 Descripción
