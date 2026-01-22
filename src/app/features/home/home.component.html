@@ -1,0 +1,130 @@
+<div class="min-h-screen bg-white">
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 sm:pt-16 md:pt-20 pb-16 sm:pb-20 md:pb-24">
+    <div class="text-center max-w-4xl mx-auto">
+      <div class="inline-flex items-center justify-center px-4 py-1.5 bg-blue-50 rounded-full mb-6 sm:mb-8">
+        <span class="text-xs sm:text-sm font-medium text-blue-600">• SYSTEM DASHBOARD V2.0</span>
+      </div>
+      
+      <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight mb-6 sm:mb-8">
+        <span class="text-gray-900 block sm:inline">Bienvenido a</span>
+        <span class="hidden sm:inline"> </span>
+        <span class="text-blue-600 block sm:inline">User Admin</span>
+      </h1>
+      
+      <!-- Description -->
+      <p class="text-base sm:text-lg md:text-xl text-gray-700 mb-10 sm:mb-12 max-w-2xl mx-auto leading-relaxed">
+        Plataforma moderna para gestionar y visualizar información de usuarios. Diseñada para ofrecer control total sobre tu ecosistema administrativo con herramientas potentes e intuitivas.
+      </p>
+      
+      <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <a routerLink="/users" 
+           class="group inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 transition-all duration-200 w-full sm:w-auto min-w-[200px]">
+          <span>Ver Lista de Usuarios</span>
+          <svg class="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+          </svg>
+        </a>
+        <a routerLink="/about" 
+           class="inline-flex items-center justify-center px-8 py-3.5 text-base font-semibold text-gray-700 bg-white border-2 border-gray-300 rounded-lg hover:border-gray-400 hover:bg-gray-50 transition-all duration-200 w-full sm:w-auto min-w-[200px]">
+          <svg class="mr-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+          Acerca de
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gray-50 py-16 sm:py-20 md:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
+        <div class="group bg-white rounded-2xl p-8 md:p-10 shadow-sm border border-gray-100 hover:shadow-xl hover:border-blue-200 hover:-translate-y-1 transition-all duration-300 cursor-pointer flex flex-col">
+          <div class="w-16 h-16 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-100 group-hover:scale-110 transition-all duration-300 mx-auto">
+            <svg class="w-8 h-8 text-blue-600 group-hover:text-blue-700 group-hover:scale-110 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors duration-300 text-center">Gestión de Usuarios</h3>
+          <p class="text-base text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300 text-center flex-grow">
+            Administra y visualiza todos los usuarios del sistema con herramientas completas y eficientes.
+          </p>
+        </div>
+
+        <div class="group bg-white rounded-2xl p-8 md:p-10 shadow-sm border border-gray-100 hover:shadow-xl hover:border-blue-200 hover:-translate-y-1 transition-all duration-300 cursor-pointer flex flex-col">
+          <div class="w-16 h-16 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-100 group-hover:scale-110 transition-all duration-300 mx-auto">
+            <svg class="w-8 h-8 text-blue-600 group-hover:text-blue-700 group-hover:scale-110 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors duration-300 text-center">Búsqueda Avanzada</h3>
+          <p class="text-base text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300 text-center flex-grow">
+            Localiza usuarios de forma instantánea con búsqueda inteligente y múltiples filtros personalizables.
+          </p>
+        </div>
+
+        <div class="group bg-white rounded-2xl p-8 md:p-10 shadow-sm border border-gray-100 hover:shadow-xl hover:border-blue-200 hover:-translate-y-1 transition-all duration-300 cursor-pointer flex flex-col">
+          <div class="w-16 h-16 bg-blue-50 rounded-xl flex items-center justify-center mb-6 group-hover:bg-blue-100 group-hover:scale-110 transition-all duration-300 mx-auto">
+            <svg class="w-8 h-8 text-blue-600 group-hover:text-blue-700 group-hover:scale-110 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4 group-hover:text-blue-600 transition-colors duration-300 text-center">Analíticas y Reportes</h3>
+          <p class="text-base text-gray-600 leading-relaxed group-hover:text-gray-700 transition-colors duration-300 text-center flex-grow">
+            Obtén insights detallados con reportes completos y métricas en tiempo real de cada usuario.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Users Management Section -->
+  <section class="bg-gray-800 py-16 sm:py-20 md:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-center">
+        <!-- Left Side - Text Content -->
+        <div class="order-2 lg:order-1">
+          <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-8 md:mb-10 leading-tight">
+            Gestión completa de usuarios
+          </h2>
+          <div class="space-y-5 md:space-y-6">
+            <div class="flex items-start group">
+              <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center mr-4 mt-0.5 flex-shrink-0 group-hover:bg-blue-500 transition-colors">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <p class="text-lg text-gray-300 group-hover:text-white transition-colors leading-relaxed">Visualización detallada de perfiles de usuario</p>
+            </div>
+            <div class="flex items-start group">
+              <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center mr-4 mt-0.5 flex-shrink-0 group-hover:bg-blue-500 transition-colors">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <p class="text-lg text-gray-300 group-hover:text-white transition-colors leading-relaxed">Búsqueda y filtrado avanzado de usuarios</p>
+            </div>
+            <div class="flex items-start group">
+              <div class="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center mr-4 mt-0.5 flex-shrink-0 group-hover:bg-blue-500 transition-colors">
+                <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                </svg>
+              </div>
+              <p class="text-lg text-gray-300 group-hover:text-white transition-colors leading-relaxed">Paginación eficiente para grandes volúmenes de datos</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="grid grid-cols-2 gap-6 order-1 lg:order-2">
+          <div class="bg-gray-700 rounded-none p-8 md:p-10 text-center border border-gray-600 flex flex-col justify-center items-center">
+            <div class="text-5xl md:text-6xl font-bold text-white mb-3">100+</div>
+            <div class="text-xs text-gray-400 uppercase tracking-wider font-medium">USUARIOS</div>
+          </div>
+          <div class="bg-blue-600 rounded-none p-8 md:p-10 text-center border border-blue-500 flex flex-col justify-center items-center">
+            <div class="text-5xl md:text-6xl font-bold text-white mb-3">100%</div>
+            <div class="text-xs text-blue-100 uppercase tracking-wider font-medium">DISPONIBLE</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

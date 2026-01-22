@@ -13,19 +13,19 @@ const app = express();
 const angularApp = new AngularNodeAppEngine();
 
 /**
- * Example Express Rest API endpoints can be defined here.
- * Uncomment and define endpoints as necessary.
+ * Aquí se pueden definir endpoints de API REST de Express.
+ * Descomentar y definir endpoints según sea necesario.
  *
- * Example:
+ * Ejemplo:
  * ```ts
  * app.get('/api/{*splat}', (req, res) => {
- *   // Handle API request
+ *   // Manejar solicitud de API
  * });
  * ```
  */
 
 /**
- * Serve static files from /browser
+ * Servir archivos estáticos desde /browser
  */
 app.use(
   express.static(browserDistFolder, {
@@ -36,7 +36,7 @@ app.use(
 );
 
 /**
- * Handle all other requests by rendering the Angular application.
+ * Manejar todas las demás solicitudes renderizando la aplicación Angular.
  */
 app.use((req, res, next) => {
   angularApp
@@ -63,6 +63,6 @@ if (isMainModule(import.meta.url) || process.env['pm_id']) {
 }
 
 /**
- * Request handler used by the Angular CLI (for dev-server and during build) or Firebase Cloud Functions.
+ * Manejador de solicitudes usado por Angular CLI (para dev-server y durante la compilación) o Firebase Cloud Functions.
  */
 export const reqHandler = createNodeRequestHandler(app);
