@@ -8,9 +8,6 @@
   
 ![Logo](https://github.com/user-attachments/assets/5b6c0d85-78f6-4a6e-b5f9-a9579ac69264)
 
-<img width="1200" height="930" alt="image" src="https://github.com/user-attachments/assets/71a8eb23-59fc-446e-a681-c8aa4532aad6" />
-
-
 </div>
 
 <div align="center">
@@ -20,6 +17,7 @@
 
 <div align="center">
   <img width="1773" height="1007" alt="image" src="https://github.com/user-attachments/assets/a020db34-0e2b-4e41-b264-daa470efa80f" />
+  <img width="1200" height="930" alt="image" src="https://github.com/user-attachments/assets/71a8eb23-59fc-446e-a681-c8aa4532aad6" />
 </div>
 
 
