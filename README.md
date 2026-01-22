@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
   <svg width="139" height="42" viewBox="0 0 139 42" fill="none" xmlns="http://www.w3.org/2000/svg">
     <!-- tu SVG completo aquí -->
   </svg>
@@ -6,12 +6,12 @@
 
 ![Logo](https://github.com/user-attachments/assets/5b6c0d85-78f6-4a6e-b5f9-a9579ac69264)
 
-<div align="center">
+<div align="left">
   <h3>Plataforma moderna para gestión y visualización de usuarios</h3>
   <p>Desarrollada con Angular 21, TypeScript y Tailwind CSS</p>
 </div>
 
-<div align="center">
+<div align="left">
   <img width="1773" height="1007" alt="image" src="https://github.com/user-attachments/assets/a020db34-0e2b-4e41-b264-daa470efa80f" />
 </div>
 
