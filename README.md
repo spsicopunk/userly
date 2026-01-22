@@ -154,7 +154,6 @@ userly/
 │   │   │   └── components/
 │   │   │       ├── navbar/          # Barra de navegación
 │   │   │       ├── footer/          # Pie de página
-│   │   │       ├── search-input/    # Componente de búsqueda
 │   │   │       └── skeleton-loader/ # Loader de carga
 │   │   │
 │   │   ├── features/                # Módulos de características
@@ -296,7 +295,6 @@ npm run serve:ssr:userly  # Inicia el servidor SSR
 - Signals para estado reactivo
 - Servicios inyectables con `providedIn: 'root'`
 - Nombres descriptivos y consistentes
-- Comentarios en español
 
 ### Mejores Prácticas Implementadas
 - Separación de responsabilidades
