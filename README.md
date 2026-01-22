@@ -1,4 +1,14 @@
-# Userly
+<div align="center">
+  <svg width="139" height="42" viewBox="0 0 139 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- tu SVG completo aquí -->
+  </svg>
+</div>
+
+<div align="center">
+  
+![Logo](https://github.com/user-attachments/assets/5b6c0d85-78f6-4a6e-b5f9-a9579ac69264)
+
+</div>
 
 <div align="center">
   <h3>Plataforma moderna para gestión y visualización de usuarios</h3>
@@ -6,10 +16,12 @@
 </div>
 
 <div align="center">
-  <img src="screenshot.png" alt="Vista previa de Userly - Dashboard principal" width="800"/>
+  <img width="1773" height="1007" alt="image" src="https://github.com/user-attachments/assets/a020db34-0e2b-4e41-b264-daa470efa80f" />
+  <img width="1200" height="930" alt="image" src="https://github.com/user-attachments/assets/71a8eb23-59fc-446e-a681-c8aa4532aad6" />
+  <img width="1160" height="932" alt="image" src="https://github.com/user-attachments/assets/395259ed-9e51-4b9a-85e5-a166eaecb800" />
+
 </div>
 
----
 
 ## 📋 Descripción
 
