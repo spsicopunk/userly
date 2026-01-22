@@ -7,7 +7,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "user-admin-project": {
+    "userly": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -63,10 +63,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "user-admin-project:build:production"
+              "buildTarget": "userly:build:production"
             },
             "development": {
-              "buildTarget": "user-admin-project:build:development"
+              "buildTarget": "userly:build:development"
             }
           },
           "defaultConfiguration": "development"

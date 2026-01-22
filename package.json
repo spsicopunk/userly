@@ -1,5 +1,5 @@
 {
-  "name": "user-admin-project",
+  "name": "userly",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:user-admin-project": "node dist/user-admin-project/server/server.mjs"
+    "serve:ssr:userly": "node dist/userly/server/server.mjs"
   },
   "prettier": {
     "printWidth": 100,
