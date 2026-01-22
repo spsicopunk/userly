@@ -36,15 +36,6 @@
             <div>
               <h1 class="text-3xl font-bold text-gray-900 mb-2">{{ getFullName() }}</h1>
               <p class="text-gray-600 mb-1">{{ user()!.email }}</p>
-              <div class="flex items-center gap-2 mt-2">
-                <img 
-                  [src]="getFlagUrl(user()!.location.country)"
-                  [alt]="user()!.location.country"
-                  class="w-5 h-4 object-cover rounded border border-gray-300"
-                  (error)="onFlagError($event)"
-                />
-                <span class="text-sm text-gray-600">{{ user()!.location.country }}</span>
-              </div>
             </div>
           </div>
         </div>

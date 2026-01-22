@@ -137,7 +137,6 @@ userly/
 │   │   │   │   └── user.model.ts
 │   │   │   └── services/            # Servicios principales
 │   │   │       ├── user.service.ts  # Servicio de usuarios
-│   │   │       └── theme.service.ts # Servicio de temas
 │   │   │
 │   │   ├── shared/                  # Componentes compartidos
 │   │   │   └── components/
