@@ -57,7 +57,7 @@ Userly demuestra las capacidades de Angular 21 en la construcción de aplicacion
 - **Vista Detallada**: Acceso completo a información detallada de cada usuario
 
 ### 🎨 Interfaz y Experiencia
-- **Tema Claro/Oscuro**: Sistema de temas con persistencia en localStorage
+- **Estrategia de marca**: Estrategia de marca y diseño con figma, stitch AI
 - **Diseño Responsive**: Adaptación perfecta a móviles, tablets y escritorio
 - **Navegación Intuitiva**: Menú sticky con indicadores de página activa
 - **Transiciones Suaves**: Animaciones y efectos hover en elementos interactivos

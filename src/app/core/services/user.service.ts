@@ -14,7 +14,7 @@ export class UserService {
   constructor(private http: HttpClient) {}
 
   getUsers(): Observable<User[]> {
-    return this.http.get<RandomUserResponse>(`${environment.apiUrl}/?results=50`).pipe(
+    return this.http.get<RandomUserResponse>(`${environment.apiUrl}/?results=40`).pipe(
       map(response => {
         const users = response.results.map((user, index) => ({
           ...user,
