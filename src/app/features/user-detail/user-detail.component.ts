@@ -28,7 +28,7 @@ export class UserDetailComponent implements OnInit {
       if (user) {
         this.user.set(user);
       } else {
-        this.error.set('Usuario no encontrado');
+        this.error.set('Usuario no encontrado, intenta con uno nuevo');
       }
     } else {
       this.router.navigate(['/users']);
